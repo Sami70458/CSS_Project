@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    width: 100%;
+    background-color: #D5FF3F;
+}
+
+nav{
+    /* background-color: blue; */
+    padding: 60px 125px;
+    width: 100%;
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .part2{
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    gap:100px;
+}
+
+nav h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+nav a{
+    font-size: 18px;
+    color: #111;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+section{
+    padding: 10px 110px;
+}
+
+section .hero-text1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.hero-text1 h1{
+    font-size: 160px;
+    text-transform: uppercase;
+    line-height: 120px;
+    font-weight: 900;
+}
+
+.hero-text1 .video{
+    height: 90px;
+    width: 310px;
+    background-color: black;
+    border-radius: 100px;
+    margin-top: 10px;
+    background-image: url(https://plus.unsplash.com/premium_photo-1701030306243-16b5acfc5c95?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEwMHxDRHd1d1hKQWJFd3x8ZW58MHx8fHx8);
+    background-size: cover;
+    background-position: center;
+    padding: 5px;
+}
+
+.video .play{
+    height: 100%;
+    width:80px;
+    border-radius: 50%;
+    background-color: black;
+    border: 2px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.play i{
+    font-size: 30px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section .hero-text2{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.hero-text2 h1{
+    font-size: 160px;
+    text-transform: uppercase;
+    line-height: 120px;
+    font-weight: 900;
+}
+
+.hero-text2 p{
+    font-size: 27px;
+    /* text-transform: uppercase; */
+    width: 600px;
+    /* line-height: 120px; */
+    /* font-weight: 900; */
+    font-weight: 100;
+}
+
+.image{
+    height: 600px;
+    width: 90%;
+    margin-left: 5%;
+    position: relative;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background-color: red;
+    background-image: url(https://images.unsplash.com/photo-1660136308586-432226190a26?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNvbG9yZnVsJTIwM2R8ZW58MHx8MHx8fDA%3D);
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
+}
+
+.image .arrow{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    right: 3%;
+    top: -6%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #444;
+}
+
+.arrow i{
+    font-size: 80px;
+}
